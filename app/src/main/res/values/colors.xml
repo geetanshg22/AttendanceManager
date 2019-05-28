@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="percentagebelow">#ADF00A0A</color>
+    <color name="percentageabove">#BC1EBD0A</color>
+    <color name="weekNotMarked">#2F141212</color>
+    <color name="weekCancelled">#728B576F</color>
+    <color name="weekAbsent">#ADF00A0A</color>
+    <color name="weekPresent">#BC1EBD0A</color>
+</resources>

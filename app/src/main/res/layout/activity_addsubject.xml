@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><!-- Layout for the editor -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <!-- Name field -->
+    <EditText
+        android:id="@+id/edit_Subject_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject Name"
+        android:inputType="textCapWords"
+        android:paddingTop="16dp"
+        android:textColor="@color/colorAccent" />
+
+    <!-- Name field -->
+    <EditText
+        android:id="@+id/edit_present"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Present"
+        android:inputType="number"
+        android:paddingTop="16dp"
+        android:textColor="@color/colorAccent" />
+
+    <!-- Name field -->
+    <EditText
+        android:id="@+id/edit_absent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Absent"
+        android:inputType="number"
+        android:paddingTop="16dp"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Select Days ..."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <CheckBox
+            android:id="@+id/checkbox_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:layout_weight="1" />
+        <CheckBox
+            android:id="@+id/checkbox_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T"
+            android:layout_weight="1" />
+        <CheckBox
+            android:id="@+id/checkbox_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="W"
+            android:layout_weight="1" />
+        <CheckBox
+            android:id="@+id/checkbox_th"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Th"
+            android:layout_weight="1" />
+        <CheckBox
+            android:id="@+id/checkbox_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:layout_weight="1" />
+        <CheckBox
+            android:id="@+id/checkbox_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Criteria"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/criteria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="75"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="2dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="%"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+</LinearLayout>
